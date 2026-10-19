@@ -731,12 +731,13 @@ html.embed .live-banner {
   .reset-stanza > span {
     animation: none;
   }
-  /* Hide voice search in embedded finders. */
-html[data-embed='true'] .mic-btn {
-  display: none;
-}
+
 
   .origin-mark__pulse {
     display: none;
   }
+}
+  /* Hide voice search in embedded finders. */
+html[data-embed='true'] .mic-btn {
+  display: none;
 }
